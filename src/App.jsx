@@ -1,7 +1,6 @@
 
 import './App.css'
-import InlineComp from './Components/InlineComp'
-import OutlineComp from './Components/OutlineComp'
+import Header from './Components/Header'
 import Todo from './Components/Todo'
 
 function App() {
@@ -9,10 +8,9 @@ function App() {
   return (
     <>
       <div className="App">
-        {/* <Todo/> */}
+        <Header/>
+        <Todo/>
 
-        <InlineComp/>
-        <OutlineComp/>
         </div>
     </>
   )
